@@ -68,15 +68,15 @@
 		6FAFAD52277FCD590041F854 /* Authenticator Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "Authenticator Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
 		6FAFAD57277FCD590041F854 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		6FAFAD58277FCD590041F854 /* Authenticator.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Authenticator.entitlements; sourceTree = "<group>"; };
-		6FAFAD78277FCD5B0041F854 /* LICENSE */ = {isa = PBXFileReference; lastKnownFileType = text; name = LICENSE; path = ../../../prototype/Authenticator/test/chrome/LICENSE; sourceTree = "<group>"; };
-		6FAFAD79277FCD5B0041F854 /* css */ = {isa = PBXFileReference; lastKnownFileType = folder; name = css; path = ../../../prototype/Authenticator/test/chrome/css; sourceTree = "<group>"; };
-		6FAFAD7A277FCD5B0041F854 /* dist */ = {isa = PBXFileReference; lastKnownFileType = folder; name = dist; path = ../../../prototype/Authenticator/test/chrome/dist; sourceTree = "<group>"; };
-		6FAFAD7B277FCD5B0041F854 /* images */ = {isa = PBXFileReference; lastKnownFileType = folder; name = images; path = ../../../prototype/Authenticator/test/chrome/images; sourceTree = "<group>"; };
-		6FAFAD7C277FCD5B0041F854 /* manifest.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; name = manifest.json; path = ../../../prototype/Authenticator/test/chrome/manifest.json; sourceTree = "<group>"; };
-		6FAFAD7D277FCD5B0041F854 /* view */ = {isa = PBXFileReference; lastKnownFileType = folder; name = view; path = ../../../prototype/Authenticator/test/chrome/view; sourceTree = "<group>"; };
-		6FAFAD7E277FCD5B0041F854 /* schema.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; name = schema.json; path = ../../../prototype/Authenticator/test/chrome/schema.json; sourceTree = "<group>"; };
-		6FAFAD7F277FCD5B0041F854 /* _locales */ = {isa = PBXFileReference; lastKnownFileType = folder; name = _locales; path = ../../../prototype/Authenticator/test/chrome/_locales; sourceTree = "<group>"; };
-		6FAFAD80277FCD5B0041F854 /* manifest-pwa.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; name = "manifest-pwa.json"; path = "../../../prototype/Authenticator/test/chrome/manifest-pwa.json"; sourceTree = "<group>"; };
+		6FAFAD78277FCD5B0041F854 /* LICENSE */ = {isa = PBXFileReference; lastKnownFileType = text; name = LICENSE; path = ./Authenticator/test/chrome/LICENSE; sourceTree = "<group>"; };
+		6FAFAD79277FCD5B0041F854 /* css */ = {isa = PBXFileReference; lastKnownFileType = folder; name = css; path = ./Authenticator/test/chrome/css; sourceTree = "<group>"; };
+		6FAFAD7A277FCD5B0041F854 /* dist */ = {isa = PBXFileReference; lastKnownFileType = folder; name = dist; path = ./Authenticator/test/chrome/dist; sourceTree = "<group>"; };
+		6FAFAD7B277FCD5B0041F854 /* images */ = {isa = PBXFileReference; lastKnownFileType = folder; name = images; path = ./Authenticator/test/chrome/images; sourceTree = "<group>"; };
+		6FAFAD7C277FCD5B0041F854 /* manifest.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; name = manifest.json; path = ./Authenticator/test/chrome/manifest.json; sourceTree = "<group>"; };
+		6FAFAD7D277FCD5B0041F854 /* view */ = {isa = PBXFileReference; lastKnownFileType = folder; name = view; path = ./Authenticator/test/chrome/view; sourceTree = "<group>"; };
+		6FAFAD7E277FCD5B0041F854 /* schema.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; name = schema.json; path = ./Authenticator/test/chrome/schema.json; sourceTree = "<group>"; };
+		6FAFAD7F277FCD5B0041F854 /* _locales */ = {isa = PBXFileReference; lastKnownFileType = folder; name = _locales; path = ./Authenticator/test/chrome/_locales; sourceTree = "<group>"; };
+		6FAFAD80277FCD5B0041F854 /* manifest-pwa.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; name = "manifest-pwa.json"; path = "./Authenticator/test/chrome/manifest-pwa.json"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */

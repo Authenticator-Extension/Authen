@@ -1,0 +1,4 @@
+[submodule "authenticator"]
+	path = authenticator
+	url = https://github.com/rebornix/authenticator
+	branch = rebornix/safari

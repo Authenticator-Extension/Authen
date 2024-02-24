@@ -9,7 +9,7 @@
 /* Begin PBXBuildFile section */
 		6FAFAD3E277FCD590041F854 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6FAFAD3D277FCD590041F854 /* AppDelegate.swift */; };
 		6FAFAD41277FCD590041F854 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6FAFAD3F277FCD590041F854 /* Main.storyboard */; };
-		6FAFAD53277FCD590041F854 /* Authenticator Extension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 6FAFAD52277FCD590041F854 /* Authenticator Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		6FAFAD53277FCD590041F854 /* Authenticator Extension.appex in Embed Foundation Extensions */ = {isa = PBXBuildFile; fileRef = 6FAFAD52277FCD590041F854 /* Authenticator Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
 		6FAFAD5A277FCD590041F854 /* Main.html in Resources */ = {isa = PBXBuildFile; fileRef = 6FAFAD1C277FCD550041F854 /* Main.html */; };
 		6FAFAD5C277FCD590041F854 /* Icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 6FAFAD1E277FCD550041F854 /* Icon.png */; };
 		6FAFAD5E277FCD590041F854 /* Style.css in Resources */ = {isa = PBXBuildFile; fileRef = 6FAFAD1F277FCD550041F854 /* Style.css */; };
@@ -25,7 +25,6 @@
 		6FAFAD86277FCD5B0041F854 /* view in Resources */ = {isa = PBXBuildFile; fileRef = 6FAFAD7D277FCD5B0041F854 /* view */; };
 		6FAFAD87277FCD5B0041F854 /* schema.json in Resources */ = {isa = PBXBuildFile; fileRef = 6FAFAD7E277FCD5B0041F854 /* schema.json */; };
 		6FAFAD88277FCD5B0041F854 /* _locales in Resources */ = {isa = PBXBuildFile; fileRef = 6FAFAD7F277FCD5B0041F854 /* _locales */; };
-		6FAFAD89277FCD5B0041F854 /* manifest-pwa.json in Resources */ = {isa = PBXBuildFile; fileRef = 6FAFAD80277FCD5B0041F854 /* manifest-pwa.json */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -39,15 +38,15 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXCopyFilesBuildPhase section */
-		6FAFAD73277FCD590041F854 /* Embed App Extensions */ = {
+		6FAFAD73277FCD590041F854 /* Embed Foundation Extensions */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
 			dstPath = "";
 			dstSubfolderSpec = 13;
 			files = (
-				6FAFAD53277FCD590041F854 /* Authenticator Extension.appex in Embed App Extensions */,
+				6FAFAD53277FCD590041F854 /* Authenticator Extension.appex in Embed Foundation Extensions */,
 			);
-			name = "Embed App Extensions";
+			name = "Embed Foundation Extensions";
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXCopyFilesBuildPhase section */
@@ -68,15 +67,14 @@
 		6FAFAD52277FCD590041F854 /* Authenticator Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "Authenticator Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
 		6FAFAD57277FCD590041F854 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		6FAFAD58277FCD590041F854 /* Authenticator.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Authenticator.entitlements; sourceTree = "<group>"; };
-		6FAFAD78277FCD5B0041F854 /* LICENSE */ = {isa = PBXFileReference; lastKnownFileType = text; name = LICENSE; path = ./Authenticator/test/chrome/LICENSE; sourceTree = "<group>"; };
-		6FAFAD79277FCD5B0041F854 /* css */ = {isa = PBXFileReference; lastKnownFileType = folder; name = css; path = ./Authenticator/test/chrome/css; sourceTree = "<group>"; };
-		6FAFAD7A277FCD5B0041F854 /* dist */ = {isa = PBXFileReference; lastKnownFileType = folder; name = dist; path = ./Authenticator/test/chrome/dist; sourceTree = "<group>"; };
-		6FAFAD7B277FCD5B0041F854 /* images */ = {isa = PBXFileReference; lastKnownFileType = folder; name = images; path = ./Authenticator/test/chrome/images; sourceTree = "<group>"; };
-		6FAFAD7C277FCD5B0041F854 /* manifest.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; name = manifest.json; path = ./Authenticator/test/chrome/manifest.json; sourceTree = "<group>"; };
-		6FAFAD7D277FCD5B0041F854 /* view */ = {isa = PBXFileReference; lastKnownFileType = folder; name = view; path = ./Authenticator/test/chrome/view; sourceTree = "<group>"; };
-		6FAFAD7E277FCD5B0041F854 /* schema.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; name = schema.json; path = ./Authenticator/test/chrome/schema.json; sourceTree = "<group>"; };
-		6FAFAD7F277FCD5B0041F854 /* _locales */ = {isa = PBXFileReference; lastKnownFileType = folder; name = _locales; path = ./Authenticator/test/chrome/_locales; sourceTree = "<group>"; };
-		6FAFAD80277FCD5B0041F854 /* manifest-pwa.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; name = "manifest-pwa.json"; path = "./Authenticator/test/chrome/manifest-pwa.json"; sourceTree = "<group>"; };
+		6FAFAD78277FCD5B0041F854 /* LICENSE */ = {isa = PBXFileReference; lastKnownFileType = text; name = LICENSE; path = ./Authenticator/chrome/LICENSE; sourceTree = "<group>"; };
+		6FAFAD79277FCD5B0041F854 /* css */ = {isa = PBXFileReference; lastKnownFileType = folder; name = css; path = ./Authenticator/chrome/css; sourceTree = "<group>"; };
+		6FAFAD7A277FCD5B0041F854 /* dist */ = {isa = PBXFileReference; lastKnownFileType = folder; name = dist; path = ./Authenticator/chrome/dist; sourceTree = "<group>"; };
+		6FAFAD7B277FCD5B0041F854 /* images */ = {isa = PBXFileReference; lastKnownFileType = folder; name = images; path = ./Authenticator/chrome/images; sourceTree = "<group>"; };
+		6FAFAD7C277FCD5B0041F854 /* manifest.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; name = manifest.json; path = ./Authenticator/chrome/manifest.json; sourceTree = "<group>"; };
+		6FAFAD7D277FCD5B0041F854 /* view */ = {isa = PBXFileReference; lastKnownFileType = folder; name = view; path = ./Authenticator/chrome/view; sourceTree = "<group>"; };
+		6FAFAD7E277FCD5B0041F854 /* schema.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; name = schema.json; path = ./Authenticator/chrome/schema.json; sourceTree = "<group>"; };
+		6FAFAD7F277FCD5B0041F854 /* _locales */ = {isa = PBXFileReference; lastKnownFileType = folder; name = _locales; path = ./Authenticator/chrome/_locales; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -178,10 +176,8 @@
 				6FAFAD7D277FCD5B0041F854 /* view */,
 				6FAFAD7E277FCD5B0041F854 /* schema.json */,
 				6FAFAD7F277FCD5B0041F854 /* _locales */,
-				6FAFAD80277FCD5B0041F854 /* manifest-pwa.json */,
 			);
 			name = Resources;
-			path = "Shared (Extension)";
 			sourceTree = SOURCE_ROOT;
 		};
 /* End PBXGroup section */
@@ -194,7 +190,7 @@
 				6FAFAD37277FCD590041F854 /* Sources */,
 				6FAFAD38277FCD590041F854 /* Frameworks */,
 				6FAFAD39277FCD590041F854 /* Resources */,
-				6FAFAD73277FCD590041F854 /* Embed App Extensions */,
+				6FAFAD73277FCD590041F854 /* Embed Foundation Extensions */,
 			);
 			buildRules = (
 			);
@@ -231,7 +227,7 @@
 			attributes = {
 				BuildIndependentTargetsInParallel = 1;
 				LastSwiftUpdateCheck = 1320;
-				LastUpgradeCheck = 1320;
+				LastUpgradeCheck = 1530;
 				TargetAttributes = {
 					6FAFAD3A277FCD590041F854 = {
 						CreatedOnToolsVersion = 13.2.1;
@@ -278,7 +274,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				6FAFAD89277FCD5B0041F854 /* manifest-pwa.json in Resources */,
 				6FAFAD87277FCD5B0041F854 /* schema.json in Resources */,
 				6FAFAD84277FCD5B0041F854 /* images in Resources */,
 				6FAFAD88277FCD5B0041F854 /* _locales in Resources */,
@@ -374,9 +369,11 @@
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				COPY_PHASE_STRIP = NO;
+				DEAD_CODE_STRIPPING = YES;
 				DEBUG_INFORMATION_FORMAT = dwarf;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu11;
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_NO_COMMON_BLOCKS = YES;
@@ -433,9 +430,11 @@
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				COPY_PHASE_STRIP = NO;
+				DEAD_CODE_STRIPPING = YES;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				ENABLE_NS_ASSERTIONS = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu11;
 				GCC_NO_COMMON_BLOCKS = YES;
 				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
@@ -457,6 +456,7 @@
 				CODE_SIGN_ENTITLEMENTS = "macOS (Extension)/Authenticator.entitlements";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEAD_CODE_STRIPPING = YES;
 				ENABLE_HARDENED_RUNTIME = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = "macOS (Extension)/Info.plist";
@@ -467,7 +467,7 @@
 					"@executable_path/../Frameworks",
 					"@executable_path/../../../../Frameworks",
 				);
-				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				MACOSX_DEPLOYMENT_TARGET = "$(RECOMMENDED_MACOSX_DEPLOYMENT_TARGET)";
 				MARKETING_VERSION = 1.0;
 				OTHER_LDFLAGS = (
 					"-framework",
@@ -488,6 +488,7 @@
 				CODE_SIGN_ENTITLEMENTS = "macOS (Extension)/Authenticator.entitlements";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEAD_CODE_STRIPPING = YES;
 				ENABLE_HARDENED_RUNTIME = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = "macOS (Extension)/Info.plist";
@@ -498,7 +499,7 @@
 					"@executable_path/../Frameworks",
 					"@executable_path/../../../../Frameworks",
 				);
-				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				MACOSX_DEPLOYMENT_TARGET = "$(RECOMMENDED_MACOSX_DEPLOYMENT_TARGET)";
 				MARKETING_VERSION = 1.0;
 				OTHER_LDFLAGS = (
 					"-framework",
@@ -522,6 +523,7 @@
 				CODE_SIGN_ENTITLEMENTS = "macOS (App)/Authenticator.entitlements";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEAD_CODE_STRIPPING = YES;
 				ENABLE_HARDENED_RUNTIME = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = "macOS (App)/Info.plist";
@@ -532,7 +534,7 @@
 					"$(inherited)",
 					"@executable_path/../Frameworks",
 				);
-				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				MACOSX_DEPLOYMENT_TARGET = "$(RECOMMENDED_MACOSX_DEPLOYMENT_TARGET)";
 				MARKETING_VERSION = 1.0;
 				OTHER_LDFLAGS = (
 					"-framework",
@@ -557,6 +559,7 @@
 				CODE_SIGN_ENTITLEMENTS = "macOS (App)/Authenticator.entitlements";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEAD_CODE_STRIPPING = YES;
 				ENABLE_HARDENED_RUNTIME = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = "macOS (App)/Info.plist";
@@ -567,7 +570,7 @@
 					"$(inherited)",
 					"@executable_path/../Frameworks",
 				);
-				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				MACOSX_DEPLOYMENT_TARGET = "$(RECOMMENDED_MACOSX_DEPLOYMENT_TARGET)";
 				MARKETING_VERSION = 1.0;
 				OTHER_LDFLAGS = (
 					"-framework",

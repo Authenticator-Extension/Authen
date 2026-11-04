@@ -16,8 +16,7 @@ import SafariServices
 typealias PlatformViewController = NSViewController
 #endif
 
-let extensionBundleIdentifier =
-    (Bundle.main.bundleIdentifier ?? "com.rebornix.Authen") + ".Extension"
+let extensionBundleIdentifier = "com.yourCompany.Authenticator.Extension"
 
 class ViewController: PlatformViewController, WKNavigationDelegate, WKScriptMessageHandler {
 

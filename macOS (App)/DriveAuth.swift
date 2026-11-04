@@ -1,8 +1,8 @@
 import AuthenticationServices
 import Cocoa
 
-private let appGroupId = "group.com.rebornix.Authen"
-private let driveAuthNotification = Notification.Name("com.rebornix.Authen.driveAuth")
+private let appGroupId = "group.com.yourCompany.Authenticator"
+private let driveAuthNotification = Notification.Name("com.yourCompany.Authenticator.driveAuth")
 private let driveRedirect = URL(string: "https://authenticator.cc/oauth")!
 
 final class DriveAuth: NSObject, ASWebAuthenticationPresentationContextProviding {

@@ -4,8 +4,8 @@ import SafariServices
 
 let SFExtensionMessageKey = "message"
 
-private let appGroupId = "group.com.rebornix.Authen"
-private let driveAuthNotification = Notification.Name("com.rebornix.Authen.driveAuth")
+private let appGroupId = "group.com.yourCompany.Authenticator"
+private let driveAuthNotification = Notification.Name("com.yourCompany.Authenticator.driveAuth")
 
 class SafariWebExtensionHandler: NSObject, NSExtensionRequestHandling {
     func beginRequest(with context: NSExtensionContext) {

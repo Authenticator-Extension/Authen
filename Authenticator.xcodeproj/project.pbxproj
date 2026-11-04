@@ -477,7 +477,7 @@
 					"-framework",
 					SafariServices,
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.rebornix.Authen.Extension;
+				PRODUCT_BUNDLE_IDENTIFIER = com.yourCompany.Authenticator.Extension;
 				PRODUCT_NAME = "Authenticator Extension";
 				SDKROOT = macosx;
 				SKIP_INSTALL = YES;
@@ -508,7 +508,7 @@
 					"-framework",
 					SafariServices,
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.rebornix.Authen.Extension;
+				PRODUCT_BUNDLE_IDENTIFIER = com.yourCompany.Authenticator.Extension;
 				PRODUCT_NAME = "Authenticator Extension";
 				SDKROOT = macosx;
 				SKIP_INSTALL = YES;
@@ -546,7 +546,7 @@
 					"-framework",
 					WebKit,
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.rebornix.Authen;
+				PRODUCT_BUNDLE_IDENTIFIER = com.yourCompany.Authenticator;
 				PRODUCT_NAME = Authenticator;
 				SDKROOT = macosx;
 				SWIFT_EMIT_LOC_STRINGS = YES;
@@ -583,7 +583,7 @@
 					"-framework",
 					WebKit,
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.rebornix.Authen;
+				PRODUCT_BUNDLE_IDENTIFIER = com.yourCompany.Authenticator;
 				PRODUCT_NAME = Authenticator;
 				SDKROOT = macosx;
 				SWIFT_EMIT_LOC_STRINGS = YES;

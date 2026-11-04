@@ -17,7 +17,7 @@ git submodule update --init
 
 Open `Authenticator.xcodeproj` and run the macOS app. The script installs the submodule dependencies with Puppeteer's Chromium download skipped, and it sets `NODE_OPTIONS=--openssl-legacy-provider` so webpack 4 runs on current Node. Xcode packages `authenticator/safari`.
 
-The project uses the published bundle ids `com.rebornix.Authen` and `com.rebornix.Authen.Extension`. `DEVELOPMENT_TEAM` is empty. Signing and the App Store upload stay with the maintainers. The deployment target is macOS 14.4, which is what `ASWebAuthenticationSession` needs for an https callback.
+The bundle ids stay `com.yourCompany.Authenticator` and `com.yourCompany.Authenticator.Extension`. `DEVELOPMENT_TEAM` is empty. Signing and the App Store upload stay with the maintainers. The deployment target is macOS 14.4, which is what `ASWebAuthenticationSession` needs for an https callback.
 
 Google Drive sign-in uses the client id already in the Chrome manifest. The client secret in `authenticator/src/models/credentials.ts` stays empty in git. The release script fills it before a production build. The redirect is `https://authenticator.cc/oauth`.
 

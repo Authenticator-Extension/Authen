@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		6FAFAD3E277FCD590041F854 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6FAFAD3D277FCD590041F854 /* AppDelegate.swift */; };
+		6FAFAD91277FCD590041F854 /* DriveAuth.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6FAFAD90277FCD590041F854 /* DriveAuth.swift */; };
 		6FAFAD41277FCD590041F854 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6FAFAD3F277FCD590041F854 /* Main.storyboard */; };
 		6FAFAD53277FCD590041F854 /* Authenticator Extension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 6FAFAD52277FCD590041F854 /* Authenticator Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
 		6FAFAD5A277FCD590041F854 /* Main.html in Resources */ = {isa = PBXBuildFile; fileRef = 6FAFAD1C277FCD550041F854 /* Main.html */; };
@@ -62,21 +63,22 @@
 		6FAFAD24277FCD590041F854 /* SafariWebExtensionHandler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SafariWebExtensionHandler.swift; sourceTree = "<group>"; };
 		6FAFAD3B277FCD590041F854 /* Authenticator.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Authenticator.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6FAFAD3D277FCD590041F854 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		6FAFAD90277FCD590041F854 /* DriveAuth.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DriveAuth.swift; sourceTree = "<group>"; };
 		6FAFAD40277FCD590041F854 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		6FAFAD42277FCD590041F854 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		6FAFAD43277FCD590041F854 /* Authenticator.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Authenticator.entitlements; sourceTree = "<group>"; };
 		6FAFAD52277FCD590041F854 /* Authenticator Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "Authenticator Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
 		6FAFAD57277FCD590041F854 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		6FAFAD58277FCD590041F854 /* Authenticator.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Authenticator.entitlements; sourceTree = "<group>"; };
-		6FAFAD78277FCD5B0041F854 /* LICENSE */ = {isa = PBXFileReference; lastKnownFileType = text; name = LICENSE; path = ./Authenticator/test/chrome/LICENSE; sourceTree = "<group>"; };
-		6FAFAD79277FCD5B0041F854 /* css */ = {isa = PBXFileReference; lastKnownFileType = folder; name = css; path = ./Authenticator/test/chrome/css; sourceTree = "<group>"; };
-		6FAFAD7A277FCD5B0041F854 /* dist */ = {isa = PBXFileReference; lastKnownFileType = folder; name = dist; path = ./Authenticator/test/chrome/dist; sourceTree = "<group>"; };
-		6FAFAD7B277FCD5B0041F854 /* images */ = {isa = PBXFileReference; lastKnownFileType = folder; name = images; path = ./Authenticator/test/chrome/images; sourceTree = "<group>"; };
-		6FAFAD7C277FCD5B0041F854 /* manifest.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; name = manifest.json; path = ./Authenticator/test/chrome/manifest.json; sourceTree = "<group>"; };
-		6FAFAD7D277FCD5B0041F854 /* view */ = {isa = PBXFileReference; lastKnownFileType = folder; name = view; path = ./Authenticator/test/chrome/view; sourceTree = "<group>"; };
-		6FAFAD7E277FCD5B0041F854 /* schema.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; name = schema.json; path = ./Authenticator/test/chrome/schema.json; sourceTree = "<group>"; };
-		6FAFAD7F277FCD5B0041F854 /* _locales */ = {isa = PBXFileReference; lastKnownFileType = folder; name = _locales; path = ./Authenticator/test/chrome/_locales; sourceTree = "<group>"; };
-		6FAFAD80277FCD5B0041F854 /* manifest-pwa.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; name = "manifest-pwa.json"; path = "./Authenticator/test/chrome/manifest-pwa.json"; sourceTree = "<group>"; };
+		6FAFAD78277FCD5B0041F854 /* LICENSE */ = {isa = PBXFileReference; lastKnownFileType = text; name = LICENSE; path = ../authenticator/safari/LICENSE; sourceTree = "<group>"; };
+		6FAFAD79277FCD5B0041F854 /* css */ = {isa = PBXFileReference; lastKnownFileType = folder; name = css; path = ../authenticator/safari/css; sourceTree = "<group>"; };
+		6FAFAD7A277FCD5B0041F854 /* dist */ = {isa = PBXFileReference; lastKnownFileType = folder; name = dist; path = ../authenticator/safari/dist; sourceTree = "<group>"; };
+		6FAFAD7B277FCD5B0041F854 /* images */ = {isa = PBXFileReference; lastKnownFileType = folder; name = images; path = ../authenticator/safari/images; sourceTree = "<group>"; };
+		6FAFAD7C277FCD5B0041F854 /* manifest.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; name = manifest.json; path = ../authenticator/safari/manifest.json; sourceTree = "<group>"; };
+		6FAFAD7D277FCD5B0041F854 /* view */ = {isa = PBXFileReference; lastKnownFileType = folder; name = view; path = ../authenticator/safari/view; sourceTree = "<group>"; };
+		6FAFAD7E277FCD5B0041F854 /* schema.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; name = schema.json; path = ../authenticator/safari/schema.json; sourceTree = "<group>"; };
+		6FAFAD7F277FCD5B0041F854 /* _locales */ = {isa = PBXFileReference; lastKnownFileType = folder; name = _locales; path = ../authenticator/safari/_locales; sourceTree = "<group>"; };
+		6FAFAD80277FCD5B0041F854 /* manifest-pwa.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; name = "manifest-pwa.json"; path = "../authenticator/safari/manifest-pwa.json"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -151,6 +153,7 @@
 			isa = PBXGroup;
 			children = (
 				6FAFAD3D277FCD590041F854 /* AppDelegate.swift */,
+				6FAFAD90277FCD590041F854 /* DriveAuth.swift */,
 				6FAFAD3F277FCD590041F854 /* Main.storyboard */,
 				6FAFAD42277FCD590041F854 /* Info.plist */,
 				6FAFAD43277FCD590041F854 /* Authenticator.entitlements */,
@@ -299,6 +302,7 @@
 			files = (
 				6FAFAD62277FCD590041F854 /* ViewController.swift in Sources */,
 				6FAFAD3E277FCD590041F854 /* AppDelegate.swift in Sources */,
+				6FAFAD91277FCD590041F854 /* DriveAuth.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -467,13 +471,13 @@
 					"@executable_path/../Frameworks",
 					"@executable_path/../../../../Frameworks",
 				);
-				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				MACOSX_DEPLOYMENT_TARGET = 14.4;
 				MARKETING_VERSION = 1.0;
 				OTHER_LDFLAGS = (
 					"-framework",
 					SafariServices,
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.yourCompany.Authenticator.Extension;
+				PRODUCT_BUNDLE_IDENTIFIER = com.rebornix.Authen.Extension;
 				PRODUCT_NAME = "Authenticator Extension";
 				SDKROOT = macosx;
 				SKIP_INSTALL = YES;
@@ -498,13 +502,13 @@
 					"@executable_path/../Frameworks",
 					"@executable_path/../../../../Frameworks",
 				);
-				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				MACOSX_DEPLOYMENT_TARGET = 14.4;
 				MARKETING_VERSION = 1.0;
 				OTHER_LDFLAGS = (
 					"-framework",
 					SafariServices,
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.yourCompany.Authenticator.Extension;
+				PRODUCT_BUNDLE_IDENTIFIER = com.rebornix.Authen.Extension;
 				PRODUCT_NAME = "Authenticator Extension";
 				SDKROOT = macosx;
 				SKIP_INSTALL = YES;
@@ -532,15 +536,17 @@
 					"$(inherited)",
 					"@executable_path/../Frameworks",
 				);
-				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				MACOSX_DEPLOYMENT_TARGET = 14.4;
 				MARKETING_VERSION = 1.0;
 				OTHER_LDFLAGS = (
+					"-framework",
+					AuthenticationServices,
 					"-framework",
 					SafariServices,
 					"-framework",
 					WebKit,
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.yourCompany.Authenticator;
+				PRODUCT_BUNDLE_IDENTIFIER = com.rebornix.Authen;
 				PRODUCT_NAME = Authenticator;
 				SDKROOT = macosx;
 				SWIFT_EMIT_LOC_STRINGS = YES;
@@ -567,15 +573,17 @@
 					"$(inherited)",
 					"@executable_path/../Frameworks",
 				);
-				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				MACOSX_DEPLOYMENT_TARGET = 14.4;
 				MARKETING_VERSION = 1.0;
 				OTHER_LDFLAGS = (
+					"-framework",
+					AuthenticationServices,
 					"-framework",
 					SafariServices,
 					"-framework",
 					WebKit,
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.yourCompany.Authenticator;
+				PRODUCT_BUNDLE_IDENTIFIER = com.rebornix.Authen;
 				PRODUCT_NAME = Authenticator;
 				SDKROOT = macosx;
 				SWIFT_EMIT_LOC_STRINGS = YES;

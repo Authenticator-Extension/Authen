@@ -11,7 +11,14 @@ import Cocoa
 class AppDelegate: NSObject, NSApplicationDelegate {
 
     func applicationDidFinishLaunching(_ notification: Notification) {
-        // Override point for customization after application launch.
+        DriveAuth.shared.startObserving()
+        DispatchQueue.main.async {
+            DriveAuth.shared.startIfPending()
+        }
+    }
+
+    func applicationDidBecomeActive(_ notification: Notification) {
+        DriveAuth.shared.startIfPending()
     }
 
     func applicationShouldTerminateAfterLastWindowClosed(_ sender: NSApplication) -> Bool {
